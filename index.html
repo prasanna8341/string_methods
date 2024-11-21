@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String_methods</title>
+    <script>
+        let str = "hello"
+        console.log(str.toUpperCase());  //HELLO   
+
+        let arr = "prasanna kumar"
+        console.log(arr.toUpperCase());  //PRASANNA KUMAR
+
+        let lower = "THIS IS THE LOWER CASE"
+        console.log(lower.toLowerCase());    //this is the lower case 
+
+        let lower1 = "THIS IS ANOTHER LOWER CASE"
+        console.log(lower1.toLowerCase());      // this is another lower case 
+
+        let trim1 = "     trim left"
+        console.log(trim1.trimLeft())     //trim left
+
+        let trim2 = "trim right     "
+        console.log(trim2.trimRight())   //trim right 
+
+        let trim3 = "       trim right      "
+        console.log(trim3.trimRight());  //trim right another example
+
+        let trim4 = "        trim      "
+        console.log(trim4.trim());     //trim
+
+        let str1 = "hello,world";
+        console.log(str1.split(",")); // Output: ["hello", "world"]
+
+        let name = "prasanna kumar";
+        console.log(name.split(" ")); // Output: ["john", "doe"]
+
+        let join1 = ["prasanna","kumar"];
+        console.log(join1.join(","));  //prasanna , kumar
+
+        let join2 = ["prasanna","kumar"];
+        console.log(join2.join(" ")); //prasanna kumar
+
+        let replace1 = "hello rajesh";
+        console.log(replace1.replace("rajesh","prasanna kumar"));   //replace 
+
+        let include1 = "hello world";
+        console.log(include1.includes("world"));   //true
+
+        let include2 = "prasanna kumar"
+        console.log(include2.includes("rajesh"));   // false 
+
+        let index1 = "my pet name harry";
+        console.log(index1.indexOf("name"));   //indexOf  //7
+
+        let index2 = "prasanna kumar";
+        console.log(index2.indexOf("kumar"));  //9
+
+        let sub = "venkata mani siva sai";
+        console.log(sub.substring("8"));     //mani siva sai    //substring
+
+        let sub2 = "prasanna kumar";
+        console.log(sub2.substring("9")); //kumar
+
+        let a = "prasanna"
+        let b = "kumar"
+        console.log(a+ " "+b);
+
+
+
+    </script>
+</head>
+
+<body>
+    <h1>THIS IS THE STRING METHODS</h1>
+</body>
+
+</html>
